@@ -5,8 +5,10 @@ quick setup script
 
 if you really want to use it, just download it and:
 
-chmod a+x qset.sh\n
+```
+chmod a+x qset.sh
 sudo ./qset.sh
+```
 
 ! Do not sudo things that you don't know. !
 
