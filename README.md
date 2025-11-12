@@ -1,5 +1,5 @@
 # quickUbuntuBasedSetup
-quick setup script
+quick setup script for GNOME
 
 ## How to use
 
