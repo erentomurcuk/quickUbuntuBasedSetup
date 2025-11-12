@@ -32,7 +32,7 @@ sudo apt install -y build-essential curl wget git software-properties-common
 
 log "Installing Applications"
 
-STANDARD_APPS="nano htop zip unzip net-tools gnome-tweaks gnome-shell-extension-manager nala vlc synaptic"
+STANDARD_APPS="nano htop zip unzip net-tools gnome-tweaks gnome-shell-extension-manager nala vlc synaptic nautilus-admin"
 
 sudo apt install -y $STANDARD_APPS
 
