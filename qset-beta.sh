@@ -5,7 +5,7 @@ set -e
 DEV_APPS="build-essential curl wget git software-properties-common gcc"
 
 STANDARD_APPS_STOCK="nano htop zip unzip net-tools nala vlc synaptic"
-STANDARD_APPS_GNOME="nano htop zip unzip net-tools gnome-tweaks gnome-shell-extension-manager nala vlc synaptic nautilus-admin"
+STANDARD_APPS_GNOME="nano htop zip unzip net-tools gnome-tweaks gnome-shell-extension-manager nala vlc synaptic nautilus-admin gparted"
 
 GNOME_CHECK=false
 INSTALL_RESTRICTED=false

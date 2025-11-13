@@ -1,5 +1,5 @@
 # quickUbuntuBasedSetup
-quick setup script for GNOME
+quick setup script
 
 ## How to use
 
@@ -15,3 +15,5 @@ sudo ./qset.sh
 ## Optional Flags
 - `-re` installs `ubuntu-restricted extras` and MS Core Fonts
 - `-dbwin` sets local time to RTC if you dual boot with Windows. (not really recommended but hey)
+
+
