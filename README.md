@@ -17,7 +17,7 @@ git clone https://github.com/erentomurcuk/quickUbuntuBasedSetup.git &&
 cd quickUbuntuBasedSetup
 chmod a+x qset.sh &&
 sudo ./qset.sh
-
+```
 
 ! Do not sudo things that you don't know. !
 
