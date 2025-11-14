@@ -7,7 +7,6 @@ set -e
 DEV_APPS="build-essential curl wget git software-properties-common gcc"
 
 STANDARD_APPS_STOCK="nano htop zip unzip net-tools nala vlc synaptic"
-# MODIFIED: nautilus-admin removed and will be handled by install_nautilus_addons()
 STANDARD_APPS_GNOME="nano htop zip unzip net-tools gnome-tweaks gnome-shell-extension-manager nala vlc synaptic nautilus-admin"
 
 HELP_TEXT="Quick Ubuntu-based distro setup script, version 1.1b\n
