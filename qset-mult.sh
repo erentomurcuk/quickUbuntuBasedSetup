@@ -2,7 +2,7 @@
 
 set -e
 
-# --- GLOBAL VARIABLES ---
+# var
 
 DEV_APPS="build-essential curl wget git software-properties-common gcc"
 
@@ -31,8 +31,7 @@ INSTALL_FLATPAK_FLAG="-instfp"
 HELP_FLAG="-help"
 HELP_FLAG_SHORT="-h"
 
-
-# --- FUNCTIONS ---
+# func
 
 log() {
     echo -e "\n\e[1m--- $1 ---\e[0m"
@@ -137,8 +136,6 @@ checkLinux() {
     fi
 }
 
-# --- ARGUMENT PARSING ---
-
 for arg in "$@"; do
     if [ "$arg" = "$INSTALL_UBUNTU_RESTRICTED_EXTRAS_FLAG" ]; then
         INSTALL_RESTRICTED=true
@@ -167,7 +164,7 @@ for arg in "$@"; do
     fi
 done
 
-# --- MAIN EXECUTION ---
+# main
 
 checkLinux
 
@@ -185,5 +182,5 @@ installFlatpak
 
 cleanup
 
-log "Complete."
+log "Script Complete"
 exit 1
